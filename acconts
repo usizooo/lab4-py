@@ -1,0 +1,14 @@
+#терминальные команды
+geth account new --datadir data - создание нового аккаунта
+geth init --datadir data genesis.json - создание генезис блока
+
+geth --datadir data --networkid 12345 --unlock 0x97C4D2B72c940Bda62B5E93439344eE9627eB728 --allow-insecure-unlock --http --http.corsdomain="*" --http.api web3,eth,debug,personal,net,miner --miner.etherbase 0x97C4D2B72c940Bda62B5E93439344eE9627eB728 - запуск чатсной сети блокчейна
+geth attach --datadir data ipc:\\.\pipe\geth.ipc - создание отдельной консоли geth для того, чтобы управлять процессами в блокчейне
+
+#созданные аккаунты
+0x97C4D2B72c940Bda62B5E93439344eE9627eB728; password- 1(терминал) 
+0x917243bbab752C85A3af502A7336e48e600A280c; password- 2(терминал) -- Alimova4027126.
+0x778977e51b647ecC3d9bBB2e4A033c2317b7383f; password- 3(терминал) -- AsdQweZxc.12
+0x6CF0131791Cd37bfF9eE9770f0e8999243BB1ee4; password- 4(терминал) -- Yoookaiii92?
+0xd029521c78989244055629524f6A8c87fa0f73Ec; password- 5(терминал) -- Usizooo962!1488
+0x31Cbc62c07461144a88a0b3ED2897E57edC7CcE4 -- VikaAlimova2005.
